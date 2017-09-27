@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
+    "ace-min-noconflict": "^1.1.9",
     "electron": "^1.7.8"
   },
   "devDependencies": {},
