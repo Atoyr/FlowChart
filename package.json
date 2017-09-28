@@ -2,7 +2,7 @@
   "name": "flowchart",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "./src/main.js",
   "dependencies": {
     "ace-min-noconflict": "^1.1.9",
     "electron": "^1.7.8"
