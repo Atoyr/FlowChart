@@ -1,0 +1,23 @@
+{
+  "name": "flowchart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "electron": "^1.7.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atoyr/FlowChart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atoyr/FlowChart/issues"
+  },
+  "homepage": "https://github.com/Atoyr/FlowChart#readme"
+}
