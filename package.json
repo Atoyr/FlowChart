@@ -4,7 +4,8 @@
   "description": "",
   "main": "./src/main.js",
   "dependencies": {
-    "electron": "^1.7.8"
+    "electron": "^1.7.8",
+    "mermaid": "^7.1.0"
   },
   "devDependencies": {},
   "scripts": {
