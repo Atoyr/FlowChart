@@ -4,12 +4,23 @@
   <meta charset="UTF-8">
   <title>Ace Editor sample</title>
   <link href="main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/mermaid/dist/mermaid.min.css">
   <script src="libs/ace/ace.js"></script>
   <script src="libs/ace/mode-javascript.js"></script>
   <script src="libs/ace/theme-twilight.js"></script>
   <script src="editor.js"></script>
+  <script src="https://unpkg.com/mermaid/dist/mermaid.min.js" charset="UTF-8"></script>
+  <script>
+    mermaid.initialize({
+      startOnLoad:true
+    });
+  </script>
 </head>
 <body onload="onLoad()">
-  <div id="editor"></div>
+  <!-- <div id="editor"></div> -->
+  <div class="mermaid">
+    graph TD;
+      A-->B;
+  </div>
 </body>
 </html>
