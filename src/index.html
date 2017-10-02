@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>Sample</title>
+  <title>Ace Editor sample</title>
+  <link href="main.css" rel="stylesheet">
+  <script src="libs/ace/ace.js"></script>
+  <script src="libs/ace/mode-javascript.js"></script>
+  <script src="libs/ace/theme-twilight.js"></script>
+  <script src="editor.js"></script>
 </head>
-<body>
-  <p>Hello World</p>
+<body onload="onLoad()">
+  <div id="editor"></div>
 </body>
 </html>
